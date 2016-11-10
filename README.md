@@ -1,3 +1,15 @@
+Gestion de Proyectos
+
+Universidad de Burgos. Grado en Ingeniería Informática.
+
+A continuación se puede ver la descripción del proyecto original que se empleará para simular las diferentes tareas de la gestión de código en la 2ª práctica de gestión ágil de proyectos.
+Título: Gestor de trabajos fin de grado y/o máster
+Autora original del proyecto: Beatriz Zurera
+
+
+--------------
+
+
 El desarrollo de trabajos final de carrera en las actuales titulaciones de informática es una de las materias fundamentales a la conclusión de los estudios. En las propuestas de grado y máster esta asignatura sigue siendo fundamental para que el alumno muestre todos los conocimientos adquiridos durante los estudios realizados. Esto da lugar a un modelo de gestión de la asignatura dentro [(1)](
 [http://upcommons.upc.edu/revistes/handle/2099/8024](http://upcommons.upc.edu/revistes/handle/2099/8024)) de un contexto universitario, aplicando buenas prácticas de ingeniería del software: monitorización, control de proceso, revisiones, evaluación y medición.
 
