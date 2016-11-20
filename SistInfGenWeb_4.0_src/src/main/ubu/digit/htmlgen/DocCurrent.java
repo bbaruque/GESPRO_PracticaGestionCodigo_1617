@@ -16,7 +16,8 @@ import ubu.digit.util.ExternalProperties;
  * HistoricSist.html a partir de información en fichero externo al que se accede
  * por odbc.
  * <p>
- * Dependencias sobre recursos web ./css/ubuSisInf.css ./js/sorttable.js
+ * Dependencias sobre recursos web ./css/materialize.min.css, ./css/style.css y
+ * ./js/sorttable.js
  * <p>
  * Dependencia sobre los datos: Proyecto(Titulo, Descripcion, Tutor1, Tutor2,
  * Tutor3, Alumno1, Alumno2, Alumno3, CursoAsignacion) y
@@ -77,6 +78,8 @@ public class DocCurrent extends DocSistInfHtml {
      * Genera el fichero ActualesSist.html a partir de los datos en un fichero
      * externo.
      * <p>
+     * Dependencias sobre ./css/materialize.min.css, ./css/style.css y
+     * ./js/sorttable.js
      * Dependencias sobre ./css/ubuSisInf.css, ./js/sorttable.js
      */
     @Override
@@ -116,7 +119,7 @@ public class DocCurrent extends DocSistInfHtml {
     /**
      * Genera el código html correspondiente a la tabla estadística.
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css
+     * Dependencias sobre ./css/materialize.min.css y ./css/style.css
      * 
      * @param title
      *            Título de la tabla.
