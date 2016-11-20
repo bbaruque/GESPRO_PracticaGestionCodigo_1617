@@ -51,7 +51,7 @@ public class Generator {
      * URL donde encontramos el fichero con las propiedades del proyecto.
      */
     private static ExternalProperties prop = ExternalProperties
-            .getInstance("./config.properties");
+            .getInstance("./../src/main/config.properties");
 
     /**
      * Constructor vacío.
