@@ -105,6 +105,9 @@
 		</copy>
 		<!-- Copia los LEEME.txt y licencia de la aplicación -->
 		<copy file="${rsc.main.dir}/LEEME.TXT" todir="${run.dir}" />
+				
+		<!-- Copia las propiedades de la aplicaciÃ³n para ejecuciÃ³n -->
+		<copy file="${src.main.dir}/config.properties" todir="${run.dir}" />
 
 		<!-- Copia los archivos de recursos web de la aplicación -->
 		<copy todir="${run.rsc.web}/css">
@@ -142,7 +145,7 @@
 
 	<target name="javadoc" description="Crea la documentación de la aplicacion en formato html con Javadoc, pueden ser encontradas en docs\javadoc." depends="compile">
 		<mkdir dir="${javadoc.dir}" />
-		<javadoc destdir="${javadoc.dir}/main" Author="yes" Version="yes" sourcepath="${src.dir}/main" encoding="utf-8">
+		<javadoc destdir="${javadoc.dir}/main" Author="yes" Version="yes" sourcepath="${src.dir}/main" encoding="utf-8" charset="UTF-8">
 			<classpath path="${compile.classpath}">
 				<fileset dir="${lib.dir}">
 					<include name="cobertura-2.0.3.jar" />
