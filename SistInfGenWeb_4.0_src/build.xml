@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 
 <project basedir="." name="SistInfGen" default="runnable">
 
@@ -142,7 +142,7 @@
 
 	<target name="javadoc" description="Crea la documentación de la aplicacion en formato html con Javadoc, pueden ser encontradas en docs\javadoc." depends="compile">
 		<mkdir dir="${javadoc.dir}" />
-		<javadoc destdir="${javadoc.dir}/main" Author="yes" Version="yes" sourcepath="${src.dir}/main" encoding="utf-8" charset="UTF-8">
+		<javadoc destdir="${javadoc.dir}/main" Author="yes" Version="yes" sourcepath="${src.dir}/main" encoding="utf-8" charset="UTF-8" >
 			<classpath path="${compile.classpath}">
 				<fileset dir="${lib.dir}">
 					<include name="cobertura-2.0.3.jar" />
